@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TheDict</string>
+    <string name="action_search">Search</string>
+    <string name="action_change_language">Change language</string>
+
+    <string name="word">Word</string>
+    <string name="translation">Translation</string>
+    <string name="english">English</string>
+    <string name="indonesian">Indonesian</string>
+    <string name="loading">Loading data..</string>
+    <string name="loaded">Data loaded</string>
+    <string name="reading">Reading files, please wait..</string>
+</resources>

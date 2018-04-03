@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TheDict</string>
+    <string name="action_search">Cari</string>
+    <string name="action_change_language">Ubah bahasa</string>
+
+    <string name="word">Kata</string>
+    <string name="translation">Terjemahan</string>
+    <string name="english">Inggris</string>
+    <string name="indonesian">Indonesia</string>
+    <string name="loading">Sedang memuat data..</string>
+    <string name="loaded">Data dimuat</string>
+    <string name="reading">Sedang membaca file-file..</string>
+</resources>

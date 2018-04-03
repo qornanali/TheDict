@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splash_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    android:fitsSystemWindows="true"
+    tools:context="id.aliqornan.thedict.feature.SplashActivity">
+
+
+    <TextView
+        android:id="@+id/text_loading_info"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/reading"
+        android:textColor="#fff"
+        android:textSize="20sp" />
+
+
+    <ProgressBar
+        android:visibility="gone"
+        style="@android:style/Widget.ProgressBar.Horizontal"
+        android:id="@+id/my_progress_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/text_loading_info"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
